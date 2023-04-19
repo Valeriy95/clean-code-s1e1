@@ -12,9 +12,9 @@
     </header>
     <main class="main">
       <section class="add-task">
-        <label class="add-task__label" for="new-task">Add Item</label>
+        <h3 class="add-task__label">Add Item</h3>
         <div class="input-wrapper">
-          <input class="input-wrapper__text" id="new-task" type="text">
+          <input class="input-wrapper__text" type="text">
           <button class="input-wrapper__btn">Add</button>
         </div>
       </section>
@@ -23,17 +23,17 @@
         <ul class="incomplete-tasks" id="incomplete">
           <li class="tasks-list">
             <input class="tasks-list__checkbox" type="checkbox">
-            <label class="tasks-list__name">Pay Bills</label>
+            <p class="tasks-list__name">Pay Bills</p>
             <input type="text" class="tasks-list__input-edit">
             <button class="tasks-list__btn-edit">Edit</button>
-            <input class="tasks-list__btn-delete"  type="image" src="./remove.svg" alt="button «delete»">
+            <input class="tasks-list__btn-delete" type="image" src="./remove.svg" alt="button «delete»">
           </li>
-          <li class="edit-mode">
+          <li class="tasks-list edit-mode">
             <input class="tasks-list__checkbox" type="checkbox">
-            <label class="tasks-list__name">Go Shopping</label>
+            <p class="tasks-list__name">Go Shopping</p>
             <input type="text" value="go shopping" class="tasks-list__input-edit">
             <button class="tasks-list__btn-edit">Save</button>
-            <input class="tasks-list__btn-delete"  type="image" src="./remove.svg" alt="button «delete»">
+            <input class="tasks-list__btn-delete" type="image" src="./remove.svg" alt="button «delete»">
           </li>
         </ul>
       </section>
@@ -42,10 +42,10 @@
         <ul class="completed-tasks" id="completed">
           <li class="tasks-list">
             <input class="tasks-list__checkbox" type="checkbox" checked>
-            <label class="tasks-list__name">See the Doctor</label>
+            <p class="tasks-list__name">See the Doctor</p>
             <input type="text" class="tasks-list__input-edit">
             <button class="tasks-list__btn-edit">Edit</button>
-            <input class="tasks-list__btn-delete"  type="image" src="./remove.svg" alt="button «delete»">
+            <input class="tasks-list__btn-delete" type="image" src="./remove.svg" alt="button «delete»">
           </li>
         </ul>
       </section>
