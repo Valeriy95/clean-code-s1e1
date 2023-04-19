@@ -44,15 +44,16 @@
   display: flex;
 }
 
-.completed-tasks, .incomplete-tasks {
-  margin:0;
+.completed-tasks, 
+.incomplete-tasks {
+  margin: 0;
   padding: 0px;
 }
 
 .edit-mode, 
 .tasks-list,
 .section-title {
-  list-style:none;
+  list-style: none;
 }
 
 .tasks-list__checkbox,
@@ -61,7 +62,7 @@
 .tasks-list__btn-delete,
 .input-wrapper__btn,
 .tasks-list__btn-edit {
-  outline:none;
+  outline: none;
 }
 
 .input-wrapper__btn,
@@ -178,16 +179,16 @@
 
 /* Edit Task */
 .tasks-list__input-edit {
-  display:none
+  display: none
 }
 
 .edit-mode .tasks-list__input-edit {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .tasks-list__name{
-  display:none;
+  display: none;
 }
 
 @media (max-width:768px) {
