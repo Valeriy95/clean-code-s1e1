@@ -83,7 +83,7 @@
 
 /* Heading */
 .section-title,
-.add-task__label {
+.add-task__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -113,7 +113,7 @@
 }
 
 /* New Task */
-.add-task__label {
+.add-task__title {
   display: block;
   margin: 0 0 20px;
 }

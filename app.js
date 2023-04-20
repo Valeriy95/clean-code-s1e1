@@ -106,7 +106,7 @@ function bindTaskEvents(taskListItem,checkBoxEventHandler) {
   let deleteButton = taskListItem.querySelector("input.tasks-list__btn-delete");
   editButton.addEventListener("click", editTask);
   deleteButton.addEventListener("click", deleteTask);
-  checkBox.addEventListener("change", checkBoxEventHandler);
+  checkBox.onchange = checkBoxEventHandler;
 }
 
 //cycle over incompleteTaskHolder ul list items
